@@ -1,4 +1,12 @@
-## MySQL
+---
+title : "Cheatsheet - Sql injection"
+author: Abdessalam Louhidi
+date: 2023-03-30 23:47:00 +0800
+categories: [Cheatsheet, Sql injection]
+tags: [Cheatsheet, Sql injection, OSCP]
+---
+## Sql injection 
+### MySQL
 
 | **Command**   | **Description**   |
 | --------------|-------------------|
